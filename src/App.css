@@ -1,38 +1,123 @@
-.App {
-  text-align: center;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+    background-color: Black;
+    height: 80vh;
+    max-width: 61vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    position: fixed center;
+    margin-top: 60px;
+    flex-direction: column;
+    border-radius: 20px;
+    
+       
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card {
+
+    color: white;
+    width: 160%;
+    height: 25vh;
+    font-size: 3em;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    padding-right: 15px;
+    margin-left: -55px;
+    margin-top: -10px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container_button {
+    
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 40%;
+    margin-left: 93%;
+    margin-top: -240%;
+    padding-top: 40%;
+    align-items: center;
+    
 }
 
-.App-link {
-  color: #61dafb;
+.container_button button {
+    border: transparent;
+    width: 80%;
+    height: 8.5vh;
+    background-color: #ff8c00;
+    color: white;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 50%;
+    margin: 6px;
+    cursor: pointer;
+   
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.numbers {
+    
+    width: 125%;
+    margin-top: 4%;
+    margin-left: -33%;
+    display: flex;
+    flex-direction: row;
+}
+
+.numbers button {
+    border: transparent;
+    width: 40%;
+    height: 8.5vh;
+    background-color: #bebcba;
+    color: black;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 50%;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.numbers_first {
+    
+    width: 128%;
+    margin-top: -2%;
+    margin-left: -33%;
+    display: flex;
+    flex-direction: row;
+}
+
+.numbers_first button {
+    
+    border: transparent;
+    width: 50%;
+    height: 8.5vh;
+    background-color: #4d4b49;
+    color: white;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 50%;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.numbers_first .virgula {    
+    flex: 1;
+    cursor: pointer;
+   
+}
+
+.numbers_first .zero {   
+    flex: 2;
+    border-radius: 30px;
+    text-align: left;
+    padding-left:20px;
+    cursor: pointer;
+       
 }
